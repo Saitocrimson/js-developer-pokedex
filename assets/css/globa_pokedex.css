@@ -1,0 +1,49 @@
+*{
+
+   
+
+    font-family: "Roboto";
+
+    box-sizing: border-box;
+
+
+
+    
+
+}
+
+body{
+
+    background-color:#23222b ;
+
+    color:beige;
+
+}
+
+h1{
+
+  font-family: "Pixelify Sans";
+
+  display:flex ;
+
+  justify-content: center;
+
+align-items:center ;
+
+color: #bd2626;
+
+text-shadow: 10px 2px #121766;
+
+font-size: 50px;
+
+
+
+}
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
