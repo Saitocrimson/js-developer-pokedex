@@ -1,8 +1,11 @@
-
-class Pokemon {
+class Tudomon{
     number;
     name;
     type;
-    types = [];
+    Types=[];
     photo;
 }
+
+
+
+
