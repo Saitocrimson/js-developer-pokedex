@@ -1,12 +1,5 @@
 
 
-.content{
-
-    width: 100vw;
-
-    height: 80vh;
-    
-}
 
 
 .grass {background-image: linear-gradient(180deg, #dfe7f5,#77c850);
@@ -156,9 +149,9 @@
 }
 
 img{
-   
+
     height: 70px;
-    
+
 }
 
 .pokemon {
@@ -226,15 +219,36 @@ img{
     width: 100%;
     padding: 1rem;
 }
-.paginas #pokebotao{
-    background-color: #f65687;
-    border-radius: 10px;
+.estetica_botao{
+    background-color: #ffef13;
     border:none;
-    color: #353232;
     font-weight: bolder; 
+    font-size: 20px;
+   
+    margin-left: 10px;
 
 }
+.paginas #pokebotao{
+    color: #101270;  
+    font-family: "Pixelify Sans";
+    border:none;
+    margin-left: 10px;
+}
+.paginas #pokehome{
+    border:none;
+    
 
+}
+.paginas #pokehome a{
+   text-decoration:none;
+   color: #101270;
+   font-family: "Pixelify Sans";
+}
+
+.paginas #pokehome:hover{
+    cursor:pointer;
+
+}
 .paginas #pokebotao:hover{
 
     cursor:pointer;

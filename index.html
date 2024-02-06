@@ -1,55 +1,40 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./asset/css/pokedex.css">
-
+   
     <link rel="stylesheet" href="./asset/css/global_pokedex.css">
-
+    <link rel="stylesheet" href="./asset/css/home.css">
+    <!--roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
 
+    <!--pixel-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
-
-    <title>POKEDEX</title>
-
-</head>
-
+    <title>Home</title>
 <body>
-
-    <section class ="content">
-
-        <h1>POKEDEX</h1>
-            <ol class="pokemons" id="grupo_todo">
-
-             </ol>
-
-            <div class="paginas">
-
-                <button id="pokebotao" type="button">Load more</button>
-
+    <section id="principal">
+        <div id="menu_home">
+         
+           
+            <h1>POKEDEX</h1>
+            <div id="poke_menu">
+                <button class="home_botao" type="button">
+                    <a href="listaPokemon.html" class="itemNav" target="_parent">Listagem pokemon</a>
+                </button>
+                <button class="home_botao"  type="button"> 
+                    <a href="details.html" class="itemNav" target="_parent">Detalhes Pokemon</a>
+                </button>
             </div>
 
     </section>
-    <script src="./asset/js/pokemon-model.js"></script>
-    <script src="./asset/js/poke-api.js"></script>
-    <script src="./asset/js/main.js"></script>
 </body>
-
 </html>
-

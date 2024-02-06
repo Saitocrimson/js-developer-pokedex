@@ -1,8 +1,10 @@
 
 var grupo =document.getElementById("grupo_todo")
+var detail=document.getElementById("baralho")
 var knapp=document.getElementById("pokebotao")
 const limit=5
 var offset=0
+
 const maximoLoad=150
 
 
@@ -36,12 +38,13 @@ function convertejsonhtml(pokemon){
         
     grupo.innerHTML+=pocket.join("")
 */
-   
+
 
 function carregarPoke(offset,limit){
 poke_api.getPokemons(offset,limit)
 .then((pokelistaa)=>{
     grupo.innerHTML+=pokelistaa.map(convertejsonhtml).join("")
+
 
 })
 .catch(function (error){

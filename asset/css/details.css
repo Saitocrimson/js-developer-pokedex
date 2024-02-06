@@ -1,0 +1,48 @@
+.poke_carta{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    padding:0;
+    margin: 0;
+    
+
+}
+ol{
+    list-style: none;
+    
+}
+.carta_individual{
+    
+    background-color: antiquewhite;
+    color:black;
+    display:flex;
+    flex-direction: column;
+    
+    width: 14rem;
+    margin:.7rem;
+    padding:1rem;
+    
+    border-radius:1rem;
+    
+}
+.tipos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.dados_complementares {
+    margin: 0;
+
+}
+.tudo{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.carta_individual img{
+    height: 50px;
+
+}

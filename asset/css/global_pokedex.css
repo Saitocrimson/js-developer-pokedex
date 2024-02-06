@@ -1,15 +1,7 @@
 *{
 
-   
-
     font-family: "Roboto";
-
     box-sizing: border-box;
-
-
-
-    
-
 }
 
 body{
@@ -20,6 +12,32 @@ body{
 
 }
 
+#principal{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#menu_home h1{
+
+    font-family: "Pixelify Sans";
+    font-size: 50px;
+    color: #ffef13;
+    text-shadow:  #121766 10px 2px;
+  
+  
+  
+  
+  }
+.content{
+
+    width: 100vw;
+    height: 80vh;
+    
+}
 .content h1{
 
   font-family: "Pixelify Sans";
@@ -28,12 +46,8 @@ body{
   align-items: center;
   justify-content: center;
   font-size: 50px;
-
-
-
-color: #bd2626;
-
-text-shadow:  #121766 10px 2px;
+  color: #ffef13;
+  text-shadow:  #121766 10px 2px;
 
 
 
