@@ -1,159 +1,34 @@
-
-
-
-
-.grass {background-image: linear-gradient(180deg, #dfe7f5,#77c850);
-
-}
-
-.fire {
-
-    background-image: linear-gradient(180deg, #dfe7f5, #ee7f30);
-
-}
-
-
-
-.water {
-
-    background-image: linear-gradient(180deg, #dfe7f5 ,#678fee);
-
-}
-
-
-
-.electric {
-
-    background-image: linear-gradient(180deg, #dfe7f5 ,#f7cf2e);
-
-}
-
-
-
-.ice {
-
-    background-image: linear-gradient(180deg, #dfe7f5,#98d5d7);
-
-}
-
-
-
-.ground {
-
-  background-image: linear-gradient(180deg, #dfe7f5, #dfbf69);
-
-}
-
-
-
-.flying {
-
-    background-image: linear-gradient(180deg, #dfe7f5,#a98ff0);
-
-}
-
-
-
-.poison {
-
-    background-image: linear-gradient(180deg, #dfe7f5,#a040a0);
-
-}
-
-
-
-.fighting {
-
-    background-image: linear-gradient(180deg, #dfe7f5,#bf3029);
-
-}
-
-
-
-.psychic {
-
-    background-image: linear-gradient(180deg, #dfe7f5, #f65687);
-
-}
-
-
-
-.dark {
-
-    background-image: linear-gradient(180deg, #dfe7f5,#725847);
-
-}
-
-
-
-.rock {
-
-    background-image: linear-gradient(180deg, #dfe7f5,#b8a137);
-
-}
-
-
-
-.bug {
-
-    background-image: linear-gradient(180deg, #dfe7f5, #a8b720);
-
-}
-
-
-
-.ghost {
-
-    background-image: linear-gradient(180deg, #dfe7f5,#6e5896);
-
-}
-
-.normal{
-
-    background-image: linear-gradient(180deg, #dfe7f5 ,#575757);
-
-}
-
-.steel {
-
-    background-image: linear-gradient(180deg, #dfe7f5, #b9b7cf);
-
-}
-
-
-
-.dragon {
-
-   background-image: linear-gradient(180deg, #dfe7f5, #6f38f6);
-
-}
-
-
-
-.fairy {
-
-    background-image: linear-gradient(180deg, #dfe7f5, #f9aec7);
-
-}
+.grass {background-image: linear-gradient(180deg, #dfe7f5,#77c850);}
+.fire {background-image: linear-gradient(180deg, #dfe7f5, #ee7f30);}
+.water {background-image: linear-gradient(180deg, #dfe7f5 ,#678fee);}
+.electric {background-image: linear-gradient(180deg, #dfe7f5 ,#f7cf2e);}
+.ice {background-image: linear-gradient(180deg, #dfe7f5,#98d5d7);}
+.ground { background-image: linear-gradient(180deg, #dfe7f5, #dfbf69);}
+.flying { background-image: linear-gradient(180deg, #dfe7f5,#a98ff0);}
+.poison {background-image: linear-gradient(180deg, #dfe7f5,#a040a0);}
+.fighting {background-image: linear-gradient(180deg, #dfe7f5,#bf3029);}
+.psychic {background-image: linear-gradient(180deg, #dfe7f5, #f65687);}
+.dark {background-image: linear-gradient(180deg, #dfe7f5,#725847);}
+.rock {background-image: linear-gradient(180deg, #dfe7f5,#b8a137);}
+.bug {background-image: linear-gradient(180deg, #dfe7f5, #a8b720);}
+.ghost{background-image: linear-gradient(180deg, #dfe7f5,#6e5896);}
+.normal{background-image: linear-gradient(180deg, #dfe7f5 ,#575757);}
+.steel {background-image: linear-gradient(180deg, #dfe7f5, #b9b7cf);}
+.dragon {background-image: linear-gradient(180deg, #dfe7f5, #6f38f6);}
+.fairy {background-image: linear-gradient(180deg, #dfe7f5, #f9aec7);}
 
 
 .pokemons{
- 
-    
     display:grid;
     grid-template-columns: 1fr 1fr ;
     list-style: none;
     padding:0;
     margin: 0;
-    
 }
 
 img{
-
     height: 70px;
-
 }
-
 .pokemon {
     color:rgb(22, 22, 8);
     display:flex;
@@ -166,7 +41,6 @@ img{
     
 
 }
-
 .pokemon .detalhe{
     display: flex;
     flex-direction: row;
@@ -174,23 +48,20 @@ img{
     justify-content: space-between;
 }
 
-
-
 .pokemon  .detalhe .type{
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
-   
-
-
 }
+
 .head_dados{
     display:flex;
     flex-direction:row-reverse;
     justify-content: space-between;
 }
+
 .pokemon .number{
     color:black;
     text-align: right;
@@ -202,7 +73,7 @@ img{
     margin: .25rem;
     
 }
-.pokemon  .detalhe .type .types{
+.pokemon .detalhe .type .types{
     color:rgb(22, 22, 8);
     margin:.25rem 0;
     padding:.25rem .5rem;
@@ -255,36 +126,31 @@ img{
 }
     
 
-        @media screen and (min-width: 380px) {
-            .pokemons {
-                grid-template-columns: 1fr 1fr;
-            }
+@media screen and (min-width: 380px) {
+        .pokemons {
+            grid-template-columns: 1fr 1fr;
         }
-        @media screen and (max-width: 450px) {
-            .pokemons {
-                grid-template-columns: 1fr ;
-            }
-        }
+}
+@media screen and (max-width: 450px) {
+        .pokemons {
+            grid-template-columns: 1fr ;
+         }
+}
         
-        
-        @media screen and (min-width: 576px) {
-            .pokemons {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-            .pokemon  .detalhe .type .types{
-                
-                font-size: .800rem
-                ;
-            }
+@media screen and (min-width: 576px) {
+        .pokemons {
+            grid-template-columns: 1fr 1fr 1fr;
         }
-        
-        @media screen and (min-width: 992px) {
-            .pokemons {
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-            }
-            .pokemon  .detalhe .type .types{
-                
-                font-size: .900rem
-                ;
-            }
+        .pokemon  .detalhe .type .types{     
+            font-size: .800rem;
         }
+}
+        
+@media screen and (min-width: 992px) {
+    .pokemons{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .pokemon  .detalhe .type .types{
+        font-size: .900rem;
+    }
+}

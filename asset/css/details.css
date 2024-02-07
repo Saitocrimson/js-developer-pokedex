@@ -4,16 +4,21 @@
     list-style: none;
     padding:0;
     margin: 0;
-    
-
 }
 ol{
     list-style: none;
-    
+}
+li{
+  
+    font-weight: bolder;
+}
+.texto-bold{
+    font-weight: bolder;
+
 }
 .carta_individual{
-    
-    background-color: antiquewhite;
+    border:thick double black;
+    background-color: crimson;
     color:black;
     display:flex;
     flex-direction: column;
@@ -25,24 +30,112 @@ ol{
     border-radius:1rem;
     
 }
-.tipos{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0;
-}
-.dados_complementares {
-    margin: 0;
-
-}
-.tudo{
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-}
-
 .carta_individual img{
     height: 50px;
+    border:2px solid black;
+    border-top-left-radius: 5em 5em;
+    border-top-right-radius: 5em 5em;
+    background-color: beige;
 
+}
+.head_dados .name{
+    margin-top: 10px;
+}
+
+/*Tipo*/
+.tipos{
+    
+    margin-left: -20px;
+    display: flex;
+    flex-direction: row;
+    align-items:right;
+    justify-content: space-around;
+    width: 100%;
+}
+.types_details{
+    border-radius:10%;
+    font-size: 20px;
+    margin: 1rem;
+    border:2px solid black;
+    width: 9rem;
+    display: flex;
+    
+    justify-content: center;
+}
+
+/*informações gerais */
+.dados_gerais{
+    
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.dados_complementares {
+    margin: 0;
+    width: 50%;
+     list-style: none;
+    
+}
+.dados_complementares  li {
+  margin-left:-80%;
+  margin-bottom: .2rem;
+  background-color: ghostwhite;
+  border:2px solid black;
+
+ 
+  
+
+}
+.dados_complementares2 {
+    margin-left: -10%;
+
+}
+.dados_complementares2 li{
+    border:2px solid black;
+    margin-bottom: .2rem;
+    background-color: ghostwhite;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width:2rem;
+   
+
+}
+/*habilidades*/
+.formatacao_paragrafo{
+    color: #131313;
+    text-decoration: dotted;
+}
+.habilidades{
+    border:2px solid black;
+    list-style: circle;
+    background-color: ghostwhite;
+}
+@media screen and (min-width: 380px) {
+    .poke_carta {
+        grid-template-columns: 1fr 1fr ;
+        margin: 1rem;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .poke_carta {
+        grid-template-columns: 1fr ;
+        margin: 1rem;
+    }
+}
+@media screen and (min-width: 576px) {
+    .poke_carta {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .poke_carta {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  
 }

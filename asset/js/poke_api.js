@@ -6,7 +6,9 @@ function convertPokemon(pokemon){
     var aux=new Pokeclasse()
     aux.number=pokemon.id
     console.log(pokemon)
-    aux.name=pokemon.name
+    var nomeP=pokemon.name
+    var resto=nomeP.slice(1)
+    aux.name=nomeP.charAt(0).toUpperCase()+resto
     tipo=pokemon.types.map((typeSlot)=>typeSlot.type.name)
     const [t1]=tipo
     aux.type=t1
